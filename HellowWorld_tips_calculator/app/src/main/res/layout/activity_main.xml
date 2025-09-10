@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/example"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:rotationX="0"
+        android:text="Калькулятор чаевых"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+    <EditText
+
+        android:id="@+id/sumOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Сумма заказа"
+        android:inputType="numberDecimal"
+        />
+    <EditText
+        android:id="@+id/sumTips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Количество чаевых"
+        android:inputType="numberDecimal"
+        />
+
+    <Button
+        android:id="@+id/resultButton"
+        android:layout_height="50dp"
+        android:text="Посчитать"
+        android:layout_width="match_parent"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сумма чаевых"
+        />
+    <TextView
+        android:id="@+id/sumTipsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сумма заказа"
+        />
+    <TextView
+        android:id="@+id/sumOrderText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Общая сумма"
+        />
+    <TextView
+        android:id="@+id/sumTotalText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_height="50dp"
+        android:text="Сброс значений"
+        android:layout_width="match_parent"
+        />
+
+
+
+<!--    android:id="@+id/sumTips"-->
+</LinearLayout>
