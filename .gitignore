@@ -1,0 +1,15 @@
+#My custom
+sync.ffs_db
+**/DirGitIgnore/
+
+# Compiled class files
+*.class
+
+# Log file
+*.log
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
